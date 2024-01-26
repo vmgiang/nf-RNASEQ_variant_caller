@@ -2,7 +2,7 @@ params.genomes = "/home/giangvm1/RNAseq/ASE/ref/Sequence/WholeGenomeFasta/genome
 params.index = "/home/giangvm1/RNAseq/ASE/ref/Sequence/WholeGenomeFasta/genome.fa.fai" //index of reference genome
 params.dict = "/home/giangvm1/RNAseq/ASE/ref/Sequence/WholeGenomeFasta/genome.dict" //dict of reference genome
 params.results = "$baseDir/result2" //outdir
-params.input = "/home/giangvm1/RNAseq/ASE/ASA_calling_star/VN_disease_33.txt" // input .csv file 
+params.input = "/home/giangvm1/RNAseq/ASE/ASA_calling_star/bam_list.csv" // input .csv file 
 params.dbsnp="/home/giangvm1/RNAseq/ASE/script/resource_grch38/resources_broad_hg38_v0_Homo_sapiens_assembly38.dbsnp138.vcf.gz" //dbsnp
 
 include {
